@@ -1,17 +1,17 @@
 import { Route, Routes } from "react-router-dom";
+import { Layout } from "./components/Layout/Layout";
 import { Home } from "./pages/Home/Home";
 import { Profiles } from "./pages/Profiles/Profiles";
-// import { Campaigns } from "./pages/Campaigns/Campaigns";
-import { Layout } from "./components/Layout/Layout";
+import { Campaigns } from "./pages/Campaigns/Campaigns";
 import "./App.css";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/" element={<Home />}>
-          <Route path=":id/profiles" element={<Profiles />}></Route>
-        </Route>
+        <Route index element={<Home />} />
+        <Route path="/:accountId" element={<Profiles />} />
+        <Route path="/:accountId/:profileId" element={<Campaigns />} />
       </Route>
     </Routes>
   );

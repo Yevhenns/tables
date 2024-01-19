@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Table,
   TableContainer,
@@ -21,6 +22,7 @@ export const AccountsTable = () => {
               <Th>Email</Th>
               <Th>Auth Token</Th>
               <Th>Creation Date</Th>
+              <Th>Action</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -30,6 +32,9 @@ export const AccountsTable = () => {
                   <Td>{email}</Td>
                   <Td>{authToken}</Td>
                   <Td>{creationDate}</Td>
+                  <Td>
+                    <Link to={`/${accountId}`}>Check profiles</Link>
+                  </Td>
                 </Tr>
               );
             })}

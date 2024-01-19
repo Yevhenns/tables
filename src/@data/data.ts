@@ -39,29 +39,29 @@ export const data = [
       {
         profileId: "p2-1",
         country: "Ukraine",
-        marketplace: "prom.ua",
+        marketplace: "olx",
         campaigns: [
           {
             campaignId: "c1-1",
-            clicks: 12,
+            clicks: 122,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c2-1",
-            clicks: 24,
+            clicks: 243,
             cost: 370,
             date: "25.12.2018",
           },
           {
             campaignId: "c3-1",
-            clicks: 22,
+            clicks: 224,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c4-1",
-            clicks: 54,
+            clicks: 541,
             cost: 310,
             date: "25.12.2018",
           },
@@ -77,30 +77,30 @@ export const data = [
     profiles: [
       {
         profileId: "p1-2",
-        country: "Ukraine",
-        marketplace: "prom.ua",
+        country: "Poland",
+        marketplace: "Allegro",
         campaigns: [
           {
             campaignId: "c1-2",
-            clicks: 12,
+            clicks: 212,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c2-2",
-            clicks: 24,
+            clicks: 724,
             cost: 370,
             date: "25.12.2018",
           },
           {
             campaignId: "c3-2",
-            clicks: 22,
+            clicks: 422,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c4-2",
-            clicks: 54,
+            clicks: 154,
             cost: 310,
             date: "25.12.2018",
           },
@@ -108,30 +108,30 @@ export const data = [
       },
       {
         profileId: "p2-2",
-        country: "Ukraine",
-        marketplace: "prom.ua",
+        country: "USA",
+        marketplace: "Amazon",
         campaigns: [
           {
             campaignId: "c1-2",
-            clicks: 12,
+            clicks: 129,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c2-2",
-            clicks: 24,
+            clicks: 249,
             cost: 370,
             date: "25.12.2018",
           },
           {
             campaignId: "c3-2",
-            clicks: 22,
+            clicks: 229,
             cost: 300,
             date: "14.02.2018",
           },
           {
             campaignId: "c4-2",
-            clicks: 54,
+            clicks: 549,
             cost: 310,
             date: "25.12.2018",
           },

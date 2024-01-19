@@ -1,3 +1,10 @@
+import { ProfilesTable } from "../../components/ProfilesTable/ProfilesTable";
+
 export const Profiles = () => {
-  return <div>Profiles</div>;
+  return (
+    <div>
+      <div>Profiles</div>
+      <ProfilesTable />
+    </div>
+  );
 };

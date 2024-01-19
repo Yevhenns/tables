@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import {
   Table,
   TableContainer,
@@ -9,14 +11,11 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { data } from "../../@data/data";
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 
 export const CampaignsTable = () => {
   const [filtered, setFiltered] = useState(null as null | Campaigns);
 
   const { accountId, profileId } = useParams();
-  console.log(useParams());
 
   useEffect(() => {
     const newObj = data.find((item) => item.accountId === accountId)?.profiles;
